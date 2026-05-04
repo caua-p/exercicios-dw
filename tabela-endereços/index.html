@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Table App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>IP Table</h1>
+
+        <div class="form-container">
+            <input type="text" id="ipInput" placeholder="IP">
+            <input type="text" id="maskInput" placeholder="Mask">
+            <input type="text" id="versionInput" placeholder="Version">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <table class="ip-table">
+            <thead>
+                <tr>
+                    <th>IP</th>
+                    <th>Mask</th>
+                    <th>Version</th>
+                    <th></th> </tr>
+            </thead>
+            <tbody id="tableBody">
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
