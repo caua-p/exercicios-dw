@@ -1,0 +1,2 @@
+### Testar a rota Hello World
+GET http://localhost:3000/
