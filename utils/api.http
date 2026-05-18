@@ -1,0 +1,22 @@
+### Testar se o número 7 é primo (Deve retornar true)
+GET http://localhost:3000/is-prime/7
+
+### Testar se o número 10 é primo (Deve retornar false)
+GET http://localhost:3000/is-prime/10
+
+### Testar erro ao enviar texto em vez de número
+GET http://localhost:3000/is-prime/abc
+
+---
+
+### Gerar senha de 8 caracteres
+GET http://localhost:3000/password-gen/8
+
+### Gerar senha de 24 caracteres
+GET http://localhost:3000/password-gen/24
+
+### Testar erro de comprimento inválido
+GET http://localhost:3000/password-gen/-5
+
+### Testar erro com parâmetro não numérico
+GET http://localhost:3000/password-gen/abc

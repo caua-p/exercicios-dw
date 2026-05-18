@@ -1,0 +1,12 @@
+{
+  "name": "web-api-utils",
+  "version": "1.0.0",
+  "description": "API utilitária para checar números primos e gerar senhas aleatórias",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  }
+}
